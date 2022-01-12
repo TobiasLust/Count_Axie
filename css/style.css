@@ -1,0 +1,76 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap');
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: 0;
+  text-decoration: none;
+  list-style: none;
+  font-family: 'Poppins', sans-serif;
+  font-size: 1em;
+}
+body{
+  background-color: #020813f1 ;
+}
+button{
+  padding: 0.8em 1.25em;
+  align-items: center;
+  border: 0 solid #E2E8F0;
+  box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1), 0 2px 4px -1px rgba(0, 0, 0, 0.06);
+  box-sizing: border-box;
+  color: #0A1426;
+  display: inline-flex;
+  font-weight: 700;
+  height: 3.5em;
+  overflow-wrap: break-word;
+  width: auto;
+  border-radius: 8px;
+  cursor: pointer;
+}
+/* Start Nav */
+.navContainer{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.logoBrand{
+  padding: 1em;
+  width: 16.75em;
+  margin-left: 4em;
+}
+
+.appButton{
+  margin-right: 4em;
+}
+
+
+/* End Nav */
+/* Main Container */
+.mainContainer{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+
+.mainContainer div{
+  margin: 1em;
+}
+
+.mainContainer h3{
+  color: white;
+  font-size: 1.8em;
+}
+
+.round h3{
+  position: absolute;
+  padding-top: 30px;
+  padding-left: 80px;
+}
+
+.energyCount h3{
+  position: absolute;
+  padding-top: 40px;
+  padding-left: 25px;
+}

@@ -14,61 +14,63 @@
       <img class="logoBrand" src="/img/Imagologo-H-COLOR-SinFondo.png" alt="">
     </div>
     <!-- Selector Language -->
-    <div class="appButton">
-      <button>Aplicación Web</button>
+    <div class="axieRedContainer">
+      <img class="axieRed" src="/img/axie_red.png" alt="">
     </div>
+  
   </div>
-  <!-- Main Container -->
-  <div class="mainContainer">
-    <!-- Count Rounds -->
-    <div class="round">
-      <h3>Round <span id="roundNumber"> 1</span></h3>
-      <img src="/img/wooden-button-1b79079878928aa21ec6a874a54f85b8.png" alt="">
+  <div class="container">
+    <!-- Cards Container -->
+    <div class="cardsContainer">
+      <!-- Count Cards -->
+      <div class="cardsCount">
+        <h3><span id="currentCards"> 6 </span> </h3>
+        <img class="imgCards" src="/img/cards.png" alt=""> 
+      </div>
+      <!-- Cards Button -->
+      <div>
+        <button onclick="minusCard()"> -1 Carta </button>
+        <button onclick="addCard()"> +1 Carta </button>
+      </div>
     </div>
-    <!-- Count Energy -->
-    <div class="energyCount">
-      <h3><span id="actualEnergy">3 </span> / <span id="maxEnergy">10</span></h3>
-      <img src="/img/matchEnergyIcon.svg" alt="" style="width: 120px;">
+    <!-- Main Container -->
+    <div class="mainContainer">
+      <!-- Count Rounds -->
+      <div class="round">
+        <h3>Round <span id="roundNumber"> 1</span></h3>
+        <img src="/img/wooden-button-1b79079878928aa21ec6a874a54f85b8.png" alt="">
+      </div>
+      <!-- Count Energy -->
+      <div class="energyCount">
+        <h3><span id="actualEnergy">3 </span> / <span id="maxEnergy">10</span></h3>
+        <img src="/img/matchEnergyIcon.svg" alt="" style="width: 120px;">
+      </div>
+      <!-- Button Energy -->
+      <div>
+        <button onclick="subtract()"> -1 Energia </button>
+        <button onclick="add()"> +1 Energia </button>
+      </div>
+      <!-- Button Match -->
+      <div>
+        <button id="nextRound" onclick="nextRound()"> Proxima Ronda </button>
+        <button id="newArena" onclick="reset()"> Nueva Partida </button>
+      </div>
     </div>
-    <!-- Button Energy -->
-    <div>
-      <button onclick="subtract()"> +1 Energia </button>
-      <button onclick="add()"> -1 Energia </button>
-    </div>
-    <!-- Button Match -->
-    <div>
-      <button id="nextRound" onclick="nextRound()"> Proxima Ronda </button>
-      <button id="newArena" onclick="reset()"> Nueva Partida </button>
-    </div>
-  </div>
-  <!-- Cards Container -->
-  <div>
     <!-- Count Cards -->
-    <div>
-      <img src="" alt=""><span id="currentCards"> 6 </span>
-    </div>
-    <!-- Cards Button -->
-    <div>
-      <button onclick="minusCard()"> +1 Carta </button>
-      <button onclick="addCard()"> -1 Carta </button>
+    <!-- <div>
+      <div>
+        <h1>asdsdasda</h1>
+      </div> -->
+
     </div>
   </div>
   <!-- Social Media -->
-  <div>
     <div>
-      <img src="/img/cartelAxie.png" alt="">
+      <div>
+        <img src="/img/cartelAxie.png" alt="">
+      </div>
     </div>
-  </div>
-  <!-- Count Cards -->
-  <div>
-
-  </div>
-  <!-- Footer -->
-  <footer>
-    <h4>Como usar</h4>
-    <h4>Cafecito</h4>
-  </footer>
-
+    
   <script src="./js/main.js"></script>
 </body>
 </html>

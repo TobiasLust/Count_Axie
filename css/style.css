@@ -9,8 +9,7 @@
   color: white;
 }
 body{
-  /* background-color: #020813f1 ; */
-  background-image: url(/img/background.jpeg);
+  background-image: url(../img/background.jpeg);
   background-position: 100vh;  
 }
 button{
